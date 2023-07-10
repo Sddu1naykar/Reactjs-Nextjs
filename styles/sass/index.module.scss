@@ -1,0 +1,107 @@
+// Index.module.scss
+
+.homepage {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      color: hsl(128, 13%, 23%);
+    }
+  
+    img {
+      margin-top: 10px;
+      width: 1262px; /* Set the desired width */
+      height: 250px; /* Set the desired height */
+      object-fit: cover;
+      /* Maintain aspect ratio while covering the container */
+    &:hover{
+      width: 1369;
+      height: 300px;
+    }
+    }
+  
+    h2 {
+      font-size: 18px;
+      color: #555;
+    }
+  
+    a {
+      color: hwb(309 4% 36%);
+      text-decoration: none;
+      margin-top: 10px;
+      display: block;
+  
+      width: 100px;
+  
+      &:hover {
+       color: #b9e40b;
+      }
+
+
+    }
+
+    .imagesContainer {
+        display: flex;
+        justify-content: flex-start;
+      }
+    
+      .image {
+        margin-right: 10px;
+      }
+  }
+  
+  .slideshow {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  .slideVisible {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation-name: slideAnimation;
+    animation-duration: 5s; /* Adjust the duration as needed */
+  }
+  
+  .slideHidden {
+    display: none;
+  }
+  
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .progressContainer {
+    position: relative;
+    height: 8px;
+    width: 100%;
+  }
+  
+  .progressBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #02b817;
+    transition: width 0.5s;
+  }
+  

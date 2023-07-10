@@ -1,0 +1,43 @@
+.sidebar {
+    background-color: #042560;
+        position: absolute;
+        top: 100px; /* Adjust this value as needed based on your navbar's height */
+        left:8px;
+        width: 200px; /* Adjust the width as needed */
+        height: 100vh; /* Adjust the height as needed */
+        padding: 20px;
+        box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+      
+      
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: gold;
+  }
+  
+  .categoryList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .categoryList li {
+    margin-bottom: 0.5rem;
+
+  }
+  
+  .categoryList li a {
+    text-decoration: none;
+    color: #d5d5e4;
+  }
+  
+  .categoryList li a:hover {
+    // text-decoration: underline;
+    background-color: hsl(0, 2%, 10%);
+    
+    border-radius: 5px;
+
+  }
+  

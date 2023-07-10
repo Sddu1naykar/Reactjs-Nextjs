@@ -1,0 +1,159 @@
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hwb(180 98% 0%);
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: -200px;
+    // padding-top: 20px;
+
+}
+
+.productCard {
+    display: flex;
+    align-items: center;
+}
+
+.imageContainer {
+    position: relative;
+    margin-right: 10px;
+}
+
+//   .productImageZoomed {
+//     width: 100%;
+//     height: auto;
+//   }
+
+.productImage {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.imageContainer:hover .productImage {
+    transform: scale(1.1);
+}
+
+.jompers {
+  
+
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+//right side part of info
+.productInfo {
+    margin-left: 20px;
+    color: hsl(45, 20%, 4%);
+
+}
+
+.productTitle {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #382b06;
+}
+
+.productPrice {
+    font-size: 16px;
+    font-weight: bold;
+    color: #070224;
+    margin-bottom: 5px;
+}
+
+.discount {
+    font-size: 14px;
+    color: hsl(144, 92%, 49%);
+    margin-bottom: 5px;
+}
+
+.taxInfo {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.offerText {
+    font-size: 14px;
+    color: #5b0808;
+    margin-bottom: 5px;
+}
+
+.tnc {
+    font-size: 12px;
+    color: #8d166f;
+    margin-bottom: 5px;
+}
+
+.finalPrice {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.extraDiscount {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.moreCount {
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.sizeChart {
+    margin-top: 5px;
+    margin-left: -50px;
+}
+
+.sizeChartText {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.sizeOptions {
+    display: flex;
+    gap: 10px;
+    margin-top: 0px;
+
+}
+
+.deliveryDate {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #8a5a07;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.backButton {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #f9daa7;
+}

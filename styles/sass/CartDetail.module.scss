@@ -1,0 +1,109 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.productList {
+  list-style: none;
+  padding: 0;
+}
+
+.productItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.productInfo {
+  display: flex;
+  align-items: center;
+}
+
+.productImage {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.productTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.productDescription {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.productPrice {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.productSize {
+  font-size: 14px;
+  color: gray;
+}
+
+.productActions {
+  display: flex;
+  align-items: center;
+}
+
+.removeButton {
+  background-color: #ff6b6b;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  background-color: hsl(4, 95%, 56%);
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.totalPrice {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.emptyCart {
+  font-size: 16px;
+  color: gray;
+  margin-top: 20px;
+}
+
+.buyButton {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.head{
+  background-color: #149f39;
+}

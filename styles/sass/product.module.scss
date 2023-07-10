@@ -1,0 +1,99 @@
+.navbar {
+  width: 97%;
+  height: 40px; /* Increase the height to accommodate the sidebar */
+  padding: 10px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: wheat;
+  z-index: 999; /* Ensure the navbar stays on top */
+}
+
+.container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin-top: -10px;
+  width: 40%;
+  margin: 10px auto;
+}
+
+.sidebar {
+  width: 30%;
+
+  // margin-bottom: 20px;
+margin-top: -100px;
+padding: 20px;
+height: 200px;
+}
+
+/* Rest of the CSS styles */
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 15px;
+  margin-left: -120px;
+}
+
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 15px;
+  margin-left: -120px;
+}
+
+
+.productCard {
+  background-color: hsl(0, 100%, 99%);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 250px;
+  max-width: 400px;
+  margin-left: 20px;
+  
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0px;
+}
+
+.productTitle {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #382b06;
+}
+
+.Discount{
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: rgb(9, 170, 35);
+}
+
+.productPrice {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: hwb(0 0% 100%);
+}
+

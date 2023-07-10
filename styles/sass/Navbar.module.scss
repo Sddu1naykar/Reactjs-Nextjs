@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #04252c;
+  padding: 10px;
+  width: 100%;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: #04252c;
+  color: #8e1672;
+}
+
+.logo a:hover {
+  color: #8e1672;
+}
+
+.links {
+  display: flex;
+  background-color: #04252c;
+  align-items: center;
+  color: #8e1672;
+}
+
+.links a {
+  margin-left: 30px;
+  margin-top: 0px;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: #04252c;
+  transition: color 0.3s; /* Add transition for smooth effect */
+  color: #8e1672;
+  &:hover {
+    color: hwb(249 80% 15%); /* Change the color on hover */
+
+  }
+}
+
+.cart {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  border-radius: 15px;
+  color: #8e1672;
+}

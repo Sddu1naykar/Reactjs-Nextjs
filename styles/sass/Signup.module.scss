@@ -1,0 +1,54 @@
+// Login.module.scss
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    // background-color: darkslategray;
+  }
+  
+  .login-container {
+    width: 200px;
+    padding: 20px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(12, 109, 177);
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: -7px;
+    margin-top: 10px;
+  }
+  
+  .button {
+    width: 40%;
+    padding: 10px;
+    background-color: #03101f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 60px;
+  }
+  .msgsuccess {
+    position: absolute;
+   
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: -500px;
+  }
+  
+  
