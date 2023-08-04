@@ -1,0 +1,13 @@
+App{
+  width: 100%;
+  height: 80%;
+  background-color: rgb(17, 126, 130);
+
+}
+
+.navbar a{
+  color: black;
+  flex: auto;
+  text-align: center;
+  margin-top: 5px;
+}
