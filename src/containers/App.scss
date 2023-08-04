@@ -1,0 +1,85 @@
+
+@import './test.scss';
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 20px;
+  width: 100%;
+  background-color: $primaray-color;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color:$primaray-color;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 15%;
+  height: 20%;
+  margin: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0px 0px 20px rgba(6, 236, 60, 0.2);
+
+  }
+
+  .image {
+    width: 40%;
+    height: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+
+  .meta-price {
+    font-size: 16px;
+    color: #6e23b8;
+    margin-bottom: 10px;
+  }
+
+  .meta {
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+}
+
+.card.blue .image {
+  background-color: #3f51b5;
+}
+
+.card.red .image {
+  background-color: #f44336;
+}
+
+.card.green .image {
+  background-color: #4caf50;
+}
+
+.card.yellow .image {
+  background-color: #ffc107;
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 100%;
+}
